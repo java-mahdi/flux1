@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: userService
+  r2dbc:
+    url: r2dbc:h2:mem:///testUser1
+    username: sa
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+eureka:
+  cleint:
+    fetch-registry: false
+    register-with-eureka: true
+server:
+  port: 8081
+
+
